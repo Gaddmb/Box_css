@@ -1,0 +1,51 @@
+/* Padding: Padding is the space between the content of an element and its border. 
+It creates internal space within the element. 
+Padding can be applied to all four sides of an element individually 
+(padding-top, padding-right, padding-bottom, padding-left) or as a shorthand property (padding: top right bottom left). */
+
+/* Margin: Margin is the space between the border of an element and surrounding elements. 
+It creates space around the element. Like padding, 
+margins can also be set for all four sides individually 
+(margin-top, margin-right, margin-bottom, margin-left) or using the shorthand property (margin: top right bottom left) */
+
+/* In CSS, the overflow property controls what happens when content exceeds the boundaries of its container. 
+When set to hidden, it hides any content that extends beyond the container's edges. 
+This is often used to create scrollable areas or to hide content that shouldn't be visible.*/
+
+.container {
+  border: 20px solid black;
+  margin: 0 auto;
+  padding: 5%;
+  width: 500px;
+  height: 400px;
+}
+
+.first {
+  background-color: red;
+  height: 400px;
+  width: 350px;
+  margin: 0 auto;
+  overflow: hidden;
+  transform: rotate(-4deg);
+}
+
+.second {
+  background-color: yellow;
+  width: 200px;
+  height: 100px;
+  margin: 20px auto;
+}
+
+.three {
+  background-color: green;
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.four {
+  background-color: brown;
+  width: 200px;
+  height: 100px;
+  margin: 20px auto;
+}
